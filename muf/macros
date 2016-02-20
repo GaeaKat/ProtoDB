@@ -1,0 +1,12 @@
+debug-line
+( -- ) prog "!d" over "d" set set (shows a single debug line)
+1
+debug-off
+( -- ) prog "!D" set ( set a program !debug from this line )
+1
+debug-on
+( -- ) prog "D" set ( set a program debug from this line )
+1
+tell
+me @ swap notify
+1
